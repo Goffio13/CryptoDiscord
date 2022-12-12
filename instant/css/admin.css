@@ -1,0 +1,51 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#erreur{
+    display: none;
+}
+
+#attention{
+    display: none;
+}
+
+#connexion{
+    display: none;
+}
+
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin:20px;
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-content: center;
+}
+
+.tools {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.console {
+    width: 90%;
+    display: flex;
+    background-color: grey;
+    height: 100%;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 50px;
+    flex-direction: column;
+}
